@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"别忘了github给个星哦～";
     [self xy_layoutTableView];
 }
 

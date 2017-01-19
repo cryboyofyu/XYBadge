@@ -15,8 +15,8 @@
 		142E74E11E14B33D00A8526A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142E74DF1E14B33D00A8526A /* LaunchScreen.storyboard */; };
 		142E74EC1E14B33D00A8526A /* XYBadgeExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142E74EB1E14B33D00A8526A /* XYBadgeExampleTests.m */; };
 		142E74F71E14B33D00A8526A /* XYBadgeExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142E74F61E14B33D00A8526A /* XYBadgeExampleUITests.m */; };
-		142E75091E14B83500A8526A /* girl1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 142E75081E14B83500A8526A /* girl1.jpg */; };
 		142E750D1E14D16800A8526A /* XYBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 142E750C1E14D16800A8526A /* XYBadge.m */; };
+		147992771E305E1500D37789 /* girl1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 147992761E305E1500D37789 /* girl1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		142E74F21E14B33D00A8526A /* XYBadgeExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYBadgeExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		142E74F61E14B33D00A8526A /* XYBadgeExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYBadgeExampleUITests.m; sourceTree = "<group>"; };
 		142E74F81E14B33D00A8526A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		142E75081E14B83500A8526A /* girl1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl1.jpg; sourceTree = "<group>"; };
 		142E750B1E14D16800A8526A /* XYBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBadge.h; sourceTree = "<group>"; };
 		142E750C1E14D16800A8526A /* XYBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBadge.m; sourceTree = "<group>"; };
+		147992761E305E1500D37789 /* girl1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = girl1.jpg; path = XYBadgeExample/XYImages/girl1.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,6 @@
 				142E74D71E14B33D00A8526A /* ViewController.h */,
 				142E74D81E14B33D00A8526A /* ViewController.m */,
 				142E750A1E14D16800A8526A /* XYBadge */,
-				142E75081E14B83500A8526A /* girl1.jpg */,
 				142E74DA1E14B33D00A8526A /* Main.storyboard */,
 				142E74DD1E14B33D00A8526A /* Assets.xcassets */,
 				142E74DF1E14B33D00A8526A /* LaunchScreen.storyboard */,
@@ -150,6 +149,7 @@
 		142E750A1E14D16800A8526A /* XYBadge */ = {
 			isa = PBXGroup;
 			children = (
+				147992761E305E1500D37789 /* girl1.jpg */,
 				142E750B1E14D16800A8526A /* XYBadge.h */,
 				142E750C1E14D16800A8526A /* XYBadge.m */,
 			);
@@ -265,7 +265,7 @@
 				142E74E11E14B33D00A8526A /* LaunchScreen.storyboard in Resources */,
 				142E74DE1E14B33D00A8526A /* Assets.xcassets in Resources */,
 				142E74DC1E14B33D00A8526A /* Main.storyboard in Resources */,
-				142E75091E14B83500A8526A /* girl1.jpg in Resources */,
+				147992771E305E1500D37789 /* girl1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +525,7 @@
 				142E74FD1E14B33D00A8526A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		142E74FE1E14B33D00A8526A /* Build configuration list for PBXNativeTarget "XYBadgeExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +534,7 @@
 				142E75001E14B33D00A8526A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		142E75011E14B33D00A8526A /* Build configuration list for PBXNativeTarget "XYBadgeExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +543,7 @@
 				142E75031E14B33D00A8526A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
