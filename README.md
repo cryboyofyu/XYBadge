@@ -4,7 +4,7 @@
  <br>QQ技术群:549943887</br>
  ____
  <br>*效果图*<br>
- ![image]()
+ ![image](https://github.com/cryboyofyu/XYBadge/blob/master/XYBadgeExample/XYImages/XYBadgeShow1.gif)
  <br>添加方法：cocoapods<br/>
  <br>pod 'XYBadge'</br>
  <br>1.方法<br/>
